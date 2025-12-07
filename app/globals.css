@@ -1548,18 +1548,18 @@ a:hover {
   padding: 20px 48px;
   background: rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(12px);
-  border: 1.5px solid rgba(255, 255, 255, 0.25);
+  border: 1.5px solid rgba(180, 180, 180, 0.3);
   border-radius: 50px;
   gap: 80px;
-  box-shadow: 0 0 30px rgba(255, 255, 255, 0.08), inset 0 0 30px rgba(255, 255, 255, 0.04);
+  box-shadow: 0 0 30px rgba(180, 180, 180, 0.12), inset 0 0 30px rgba(180, 180, 180, 0.06);
   transition: all 0.3s ease;
   width: 100%;
 }
 
 .navbar-pill:hover {
   background: rgba(0, 0, 0, 0.5);
-  border-color: rgba(255, 255, 255, 0.4);
-  box-shadow: 0 0 40px rgba(255, 255, 255, 0.12), inset 0 0 30px rgba(255, 255, 255, 0.06);
+  border-color: rgba(200, 200, 200, 0.45);
+  box-shadow: 0 0 40px rgba(180, 180, 180, 0.16), inset 0 0 30px rgba(180, 180, 180, 0.08);
 }
 
 .social-icons {
@@ -1577,8 +1577,8 @@ a:hover {
 }
 
 .social-icons a:hover {
-  color: rgba(255, 255, 255, 0.95);
-  text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+  color: rgba(210, 210, 210, 0.95);
+  text-shadow: 0 0 8px rgba(160, 160, 160, 0.7);
 }
 
 .logo {
@@ -1603,8 +1603,8 @@ a:hover {
 }
 
 .main-nav a:hover {
-  color: rgba(255, 255, 255, 0.95);
-  text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+  color: rgba(210, 210, 210, 0.95);
+  text-shadow: 0 0 8px rgba(160, 160, 160, 0.7);
 }
 
 .hero-section {
@@ -1644,14 +1644,14 @@ a:hover {
   height: 100%;
   border-radius: 20px;
   overflow: hidden;
-  border: 2px solid rgba(255, 255, 255, 0.2);
-  box-shadow: 0 0 50px rgba(255, 255, 255, 0.12), inset 0 0 30px rgba(255, 255, 255, 0.06);
+  border: 2px solid rgba(180, 180, 180, 0.25);
+  box-shadow: 0 0 45px rgba(160, 160, 160, 0.14), inset 0 0 28px rgba(160, 160, 160, 0.08);
   transition: all 0.4s ease;
 }
 
 .hero-image:hover {
-  border-color: rgba(255, 255, 255, 0.35);
-  box-shadow: 0 0 70px rgba(255, 255, 255, 0.18), inset 0 0 40px rgba(255, 255, 255, 0.08);
+  border-color: rgba(200, 200, 200, 0.35);
+  box-shadow: 0 0 65px rgba(170, 170, 170, 0.18), inset 0 0 36px rgba(170, 170, 170, 0.1);
   transform: translateY(-5px);
 }
 
@@ -1826,18 +1826,18 @@ a:hover {
 .project-card {
   cursor: pointer;
   transition: all 0.4s ease;
-  border: 2px solid rgba(255, 255, 255, 0.18);
+  border: 2px solid rgba(180, 180, 180, 0.25);
   border-radius: 12px;
   padding: 24px;
   background: rgba(255, 255, 255, 0.02);
-  box-shadow: 0 0 35px rgba(255, 255, 255, 0.1), inset 0 0 30px rgba(255, 255, 255, 0.04);
+  box-shadow: 0 0 32px rgba(170, 170, 170, 0.12), inset 0 0 28px rgba(170, 170, 170, 0.06);
 }
 
 .project-card:hover {
   transform: translateY(-5px);
   background: rgba(255, 255, 255, 0.05);
-  border-color: rgba(255, 255, 255, 0.3);
-  box-shadow: 0 0 50px rgba(255, 255, 255, 0.16), inset 0 0 40px rgba(255, 255, 255, 0.06);
+  border-color: rgba(200, 200, 200, 0.3);
+  box-shadow: 0 0 44px rgba(170, 170, 170, 0.16), inset 0 0 36px rgba(170, 170, 170, 0.08);
 }
 
 .project-image {
@@ -1847,7 +1847,7 @@ a:hover {
   background: var(--light-gray);
   margin-bottom: 20px;
   border-radius: 8px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(180, 180, 180, 0.24);
 }
 
 .project-image img {
