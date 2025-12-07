@@ -423,6 +423,9 @@ const ModelViewer3D = () => {
 
   return (
     <div className="model-wrap" onClick={handleClick}>
+      {/* TS ignore: custom element typing handled at runtime */}
+      {/* eslint-disable-next-line @typescript-eslint/ban-ts-comment */}
+      {/* @ts-ignore */}
       <model-viewer
         ref={mvRef}
         src="https://modelviewer.dev/shared-assets/models/RobotExpressive.glb"
