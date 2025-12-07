@@ -441,6 +441,9 @@ const ModelViewer3D = () => {
         }}
       ></model-viewer>
 
+      {/* eslint-disable-next-line @typescript-eslint/ban-ts-comment */}
+      {/* @ts-ignore */}
+
       <div className={`thought-bubble ${thinking ? "visible" : ""}`} aria-hidden>
         <div className="thought-icons">✏️ <span className="sep">🎨</span> 🎬</div>
         <div className="thought-text">Sketching ideas...</div>
