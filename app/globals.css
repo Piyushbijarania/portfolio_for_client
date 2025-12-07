@@ -1667,6 +1667,126 @@ a:hover {
   filter: grayscale(80%) contrast(1.15);
 }
 
+/* Responsive tweaks */
+@media (max-width: 1200px) {
+  .site-header {
+    max-width: 1000px;
+  }
+  .navbar-pill {
+    gap: 48px;
+    padding: 16px 32px;
+  }
+  .hero-content {
+    gap: 48px;
+  }
+  .hero-image-wrapper {
+    width: 320px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 992px) {
+  .site-header {
+    max-width: 900px;
+    top: 12px;
+  }
+  .navbar-pill {
+    gap: 32px;
+    padding: 14px 24px;
+  }
+  .main-nav {
+    gap: 24px;
+    font-size: 15px;
+  }
+  .social-icons {
+    gap: 20px;
+    font-size: 18px;
+  }
+  .hero-section {
+    padding: 120px 0 160px;
+  }
+  .hero-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .hero-text {
+    max-width: 100%;
+  }
+  .hero-image-wrapper {
+    width: 300px;
+    height: 360px;
+  }
+}
+
+@media (max-width: 768px) {
+  .site-header {
+    width: calc(100% - 24px);
+    max-width: none;
+    top: 10px;
+  }
+  .navbar-pill {
+    width: 100%;
+    padding: 12px 18px;
+    gap: 20px;
+    border-radius: 40px;
+  }
+  .main-nav {
+    gap: 18px;
+    font-size: 14px;
+  }
+  .social-icons {
+    gap: 14px;
+    font-size: 16px;
+  }
+  .hero-section {
+    padding: 110px 0 140px;
+  }
+  .hero-title {
+    font-size: clamp(48px, 10vw, 96px);
+  }
+  .hero-subtitle,
+  .hero-description {
+    text-align: center;
+  }
+  .hero-image-wrapper {
+    width: 260px;
+    height: 320px;
+  }
+  .projects-grid {
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 32px;
+  }
+  .projects-heading {
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 520px) {
+  .navbar-pill {
+    padding: 10px 14px;
+    gap: 14px;
+  }
+  .main-nav {
+    gap: 12px;
+    font-size: 13px;
+  }
+  .social-icons {
+    gap: 12px;
+    font-size: 15px;
+  }
+  .hero-section {
+    padding: 100px 0 120px;
+  }
+  .hero-title {
+    font-size: clamp(42px, 11vw, 80px);
+  }
+  .hero-image-wrapper {
+    width: 230px;
+    height: 280px;
+  }
+}
+
 .hero-title {
   font-size: clamp(60px, 8vw, 120px);
   font-weight: 900;
