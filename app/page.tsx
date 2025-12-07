@@ -24,6 +24,9 @@ declare global {
 
 import { ShootingStars } from "@/components/ui/shooting-stars";
 
+// custom element tag helper to avoid JSX intrinsic typing errors
+const ModelViewerElement: any = "model-viewer";
+
 const projects = [
   {
     title: "ATHLETIC INTEREST RECREATION",
@@ -423,10 +426,8 @@ const ModelViewer3D = () => {
 
   return (
     <div className="model-wrap" onClick={handleClick}>
-      {/* TS ignore: custom element typing handled at runtime */}
-      {/* eslint-disable-next-line @typescript-eslint/ban-ts-comment */}
-      {/* @ts-ignore */}
-      <model-viewer
+      {/* @ts-ignore custom element is provided at runtime */}
+      <ModelViewerElement
         ref={mvRef}
         src="https://modelviewer.dev/shared-assets/models/RobotExpressive.glb"
         alt="Designer character"
@@ -439,10 +440,7 @@ const ModelViewer3D = () => {
           transform: "rotateX(var(--rx, 0)) rotateY(var(--ry, 0))",
           transition: "transform 320ms cubic-bezier(0.2,0.9,0.2,1)",
         }}
-      ></model-viewer>
-
-      {/* eslint-disable-next-line @typescript-eslint/ban-ts-comment */}
-      {/* @ts-ignore */}
+      />
 
       <div className={`thought-bubble ${thinking ? "visible" : ""}`} aria-hidden>
         <div className="thought-icons">✏️ <span className="sep">🎨</span> 🎬</div>
